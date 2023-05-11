@@ -49,21 +49,21 @@
           Edit size, position, texture and animation here -->
 
         <a-box
-        width="4"
-        height="4"
+        width="3"
+        height="3"
         depth="0.2"
         position= "0 0.5 0"
-        rotation="0 360 0"
+        rotation="0 45 0"
         src="https://i.imgur.com/TnDKg4Z.jpg"
         transparent="true"
         alphaTest= "0.5"
         env-map="#env"
-        metalness="0"
-        roughness="0.1"                  
+        metalness="1.0"
+        roughness="0.0"                  
         animation="
          property: rotation; 
-         from: 10 0 0; 
-         to: 10 360 360; 
+         from: 0 0 0; 
+         to: 0 360 0; 
          easing: linear; 
          dur: 6666; 
          loop:true"
